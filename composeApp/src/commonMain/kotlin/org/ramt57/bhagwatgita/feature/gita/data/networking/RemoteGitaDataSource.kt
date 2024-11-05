@@ -10,7 +10,7 @@ import org.ramt57.bhagwatgita.feature.gita.domain.GitaDataSource
 import org.ramt57.bhagwatgita.feature.gita.data.models.ChapterItem
 import org.ramt57.bhagwatgita.feature.gita.data.models.VerseItem
 
-internal class RemoteGitaDataSource(private val httpClient: HttpClient): GitaDataSource {
+internal class RemoteGitaDataSource(val httpClient: HttpClient): GitaDataSource {
     override suspend fun getAllChapters(): Result<List<ChapterItem>, NetworkError> {
         return safeCall { httpClient.get(urlString = constructUrl(ApiRoutes.AllChapters)) }
     }
@@ -31,6 +31,6 @@ internal class RemoteGitaDataSource(private val httpClient: HttpClient): GitaDat
     }
 
     override suspend fun getRandomSlokByChapter(chapterNumber: Int): Result<VerseItem, NetworkError> {
-        return safeCall { httpClient.get(urlString = constructUrl("${ApiRoutes.Verse}/${chapterNumber}")) }
+        return safeCall { httpClient.get(urlString = constructUrl("${ApiRoutes.Verse}/${chapterNumber}/1")) }
     }
 }

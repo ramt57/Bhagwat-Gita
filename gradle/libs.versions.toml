@@ -17,6 +17,7 @@ kotlin = "2.0.20"
 ktor = "3.0.0"
 koin = "4.0.0"
 navigation-compose = "2.8.0-alpha10"
+napier = "2.7.1"
 
 [libraries]
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
@@ -47,6 +48,8 @@ koin-compose-viewmodel = { group = "io.insert-koin", name = "koin-compose-viewmo
 koin-compose-viewmodel-navigation = { group = "io.insert-koin", name = "koin-compose-viewmodel-navigation", version.ref = "koin" }
 koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose" , version.ref = "koin"}
 koin-android = { group = "io.insert-koin", name = "koin-android" , version.ref = "koin"}
+
+napier-logger = { module = "io.github.aakira:napier", version.ref = "napier"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

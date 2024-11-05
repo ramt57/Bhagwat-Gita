@@ -53,6 +53,7 @@ kotlin {
             implementation(libs.koin.compose.viewmodel)
 
             implementation(libs.bundles.ktor)
+            implementation(libs.napier.logger)
         }
         nativeMain.dependencies {
             implementation(libs.ktor.client.darwin)
