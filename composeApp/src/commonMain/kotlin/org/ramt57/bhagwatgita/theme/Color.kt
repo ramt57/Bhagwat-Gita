@@ -1,4 +1,4 @@
-package org.ramt57.bhagwatgita.ui.theme
+package org.ramt57.bhagwatgita.theme
 import androidx.compose.ui.graphics.Color
 
 val primaryLight = Color(0xFF8D4E2B)
