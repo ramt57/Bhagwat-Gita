@@ -54,6 +54,7 @@ kotlin {
 
             implementation(libs.bundles.ktor)
             implementation(libs.napier.logger)
+            implementation(libs.cmptoast)
         }
         nativeMain.dependencies {
             implementation(libs.ktor.client.darwin)

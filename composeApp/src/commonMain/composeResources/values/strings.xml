@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
     <string name="hello_world">Hello World</string>
+    <string name="network_error_request_timeout">Request timed out</string>
+    <string name="network_error_unauthorized">Unauthorized access</string>
+    <string name="network_error_conflict">Conflict detected</string>
+    <string name="network_error_too_many_requests">Too many requests</string>
+    <string name="network_error_no_internet">No internet connection</string>
+    <string name="network_error_payload_too_large">Payload too large</string>
+    <string name="network_error_server_error">Server error</string>
+    <string name="network_error_serialization">Serialization error</string>
+    <string name="network_error_unknown">Unknown network error</string>
 </resources>
