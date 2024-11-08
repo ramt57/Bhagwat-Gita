@@ -12,8 +12,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import org.ramt57.bhagwatgita.feature.gita.presentation.ui.home.Detail
-import org.ramt57.bhagwatgita.feature.gita.presentation.ui.home.Home
+import org.ramt57.bhagwatgita.feature.gita.presentation.components.Detail
+import org.ramt57.bhagwatgita.feature.gita.presentation.components.Home
 import org.ramt57.bhagwatgita.theme.AppTheme
 
 @Composable

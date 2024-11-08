@@ -1,4 +1,4 @@
-package org.ramt57.bhagwatgita.feature.gita.presentation.models
+package org.ramt57.bhagwatgita.feature.gita.presentation
 
 import androidx.compose.runtime.Immutable
 import org.ramt57.bhagwatgita.feature.gita.data.models.VerseItem

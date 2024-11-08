@@ -1,4 +1,4 @@
-package org.ramt57.bhagwatgita.feature.gita.presentation.ui.home
+package org.ramt57.bhagwatgita.feature.gita.presentation.components
 
 import kotlinx.serialization.Serializable
 

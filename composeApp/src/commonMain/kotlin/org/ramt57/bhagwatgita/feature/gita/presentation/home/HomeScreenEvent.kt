@@ -1,4 +1,4 @@
-package org.ramt57.bhagwatgita.feature.gita.presentation.models
+package org.ramt57.bhagwatgita.feature.gita.presentation.home
 
 import org.ramt57.bhagwatgita.core.domain.util.NetworkError
 

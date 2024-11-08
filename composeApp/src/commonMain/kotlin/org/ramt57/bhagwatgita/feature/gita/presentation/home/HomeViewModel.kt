@@ -1,4 +1,4 @@
-package org.ramt57.bhagwatgita.feature.gita.domain
+package org.ramt57.bhagwatgita.feature.gita.presentation.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -12,11 +12,10 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.ramt57.bhagwatgita.core.domain.util.onError
 import org.ramt57.bhagwatgita.core.domain.util.onSuccess
-import org.ramt57.bhagwatgita.feature.gita.presentation.models.HomeScreenAction
-import org.ramt57.bhagwatgita.feature.gita.presentation.models.HomeScreenEvent
-import org.ramt57.bhagwatgita.feature.gita.presentation.models.RandomVerseUiState
+import org.ramt57.bhagwatgita.feature.gita.domain.GitaDataSource
+import org.ramt57.bhagwatgita.feature.gita.presentation.RandomVerseUiState
 
-class GitaDataViewModel(private val dataSource: GitaDataSource) : ViewModel() {
+class HomeViewModel(private val dataSource: GitaDataSource) : ViewModel() {
     private val _randomVerseUiState = MutableStateFlow(RandomVerseUiState())
 
     val state = _randomVerseUiState.onStart {

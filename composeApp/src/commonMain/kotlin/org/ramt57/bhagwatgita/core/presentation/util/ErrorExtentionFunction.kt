@@ -1,4 +1,4 @@
-package org.ramt57.bhagwatgita.feature.gita.presentation.util
+package org.ramt57.bhagwatgita.core.presentation.util
 
 import bhagwatgita.composeapp.generated.resources.Res
 import bhagwatgita.composeapp.generated.resources.*
